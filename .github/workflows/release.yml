@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - 'release'
+      - 'ci_result_baseline_test'
 
 jobs:
   LitmusAcceptance:
